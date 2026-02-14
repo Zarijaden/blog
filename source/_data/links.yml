@@ -1,8 +1,0 @@
-- links_category: Friends
-  has_thumbnail: false
-  list:
-    - name: Zeropersan
-      link: zeropersan.github.io
-      description: MC玩家Zeropersan的博客
-      avatar: https://avatars.githubusercontent.com/u/255639988
-      thumbnail:
