@@ -1,0 +1,37 @@
+<% if (
+        theme.comment.system==='utteranc' &&
+        theme.comment.config.utteranc.repo &&
+        theme.comment.config.utteranc.issue-term &&
+        theme.comment.config.utteranc.label &&
+        theme.comment.config.utteranc.theme &&
+        theme.comment.config.utteranc.crossorigin
+        
+    ) { %>
+    <div id="utteranc-container"></div>
+    <script <%= theme.global.single_page === true && 'data-swup-reload-script' %> defer>
+        async function loadUtteranc() {
+            const utterancConfig = {
+                'src': 'https://utteranc.app/client.js',
+                'issue-term': '<%= theme.comment.config.utteranc.issue-term %>',
+                'repo': '<%= theme.comment.config.utteranc.repo %>',
+                'label': '<%= theme.comment.config.utteranc.label %>',
+                'theme': '<%= theme.comment.config.utteranc.theme %>',
+                'crossorigin': 'anonymous',
+                'async': true
+            }
+            const utterancScript = document.createElement('script');
+            for (const key in utterancConfig) {
+                utterancScript.setAttribute(key, utterancConfig[key]);
+            }
+            document.getElementById('utteranc-container').appendChild(utterancScript);
+        }
+        if ('<%= theme.global.single_page %>') {
+            let loadUtterancTimeout = setTimeout(() => {
+                loadUtteranc();
+                clearTimeout(loadUtterancTimeout);
+            }, 1000);
+        } else {
+            document.addEventListener('DOMContentLoaded', loadUtteranc);
+        }
+    </script>
+<% } %>
