@@ -209,9 +209,9 @@ navbar:
     Home:
       path: /
       icon: fa-regular fa-house # can be empty
-    # Archives:
-    #   path: /archives
-    #   icon: fa-regular fa-archive # can be empty
+    Archives:
+      path: /archives
+      icon: fa-regular fa-archive # can be empty
     # Status:
     #   path: https://status.ohevan.com/
     #   icon: fa-regular fa-chart-bar
@@ -379,10 +379,10 @@ comment:
       region: # Twikoo region. can be empty
     # Giscus comment system. See https://giscus.app/
     giscus:
-      repo: Zarijaden/blog# Github repository name e.g. EvanNotFound/hexo-theme-redefine
-      repo_id: "R_kgDORQUF1g"# Github repository id
-      category: "Announcements"# Github discussion category
-      category_id: "DIC_kwDORQUF1s4C2eQr"# Github discussion category id
+      repo: Zarijaden/blog # Github repository name e.g. EvanNotFound/hexo-theme-redefine
+      repo_id: R_kgDORQUF1g # Github repository id
+      category: Announcements # Github discussion category
+      category_id: DIC_kwDORQUF1s4C2eQr # Github discussion category id
       mapping: pathname # Which value to use as the unique identifier for the page. e.g. pathname, url, title, og:title. DO NOT USE og:title WITH PJAX ENABLED since pjax will not update og:title when the page changes
       strict: 0 # Whether to enable strict mode. e.g. 0, 1
       reactions_enabled: 1 # Whether to enable reactions. e.g. 0, 1
