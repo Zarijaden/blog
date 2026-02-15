@@ -358,12 +358,6 @@ comment:
   # System configuration
   config:
     # Utteranc comment system. See https://utteranc.es/
-    utteranc:
-      repo: "Zarijaden/blog"
-      issue-term: "pathname"
-      label: "评论"
-      theme: "github-light"
-      crossorigin: "anonymous"
     # Waline comment system. See https://waline.js.org/
     waline:
       serverUrl: https://example.example.com # Waline server URL. e.g. https://example.example.com
