@@ -1,6 +1,7 @@
 ---
 title:        "文章样式demo"
 author:       "Zarijaden"
+date: 2026-02-15
 tags:
     - 教程
 ---

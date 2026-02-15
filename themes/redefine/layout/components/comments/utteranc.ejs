@@ -3,12 +3,14 @@
         
     ) { %>
     <div id="utteranc-container"></div>
-    <script src="https://utteranc.es/client.js"
-                repo="Zarijaden/blog"
-                issue-term="pathname"
-                label="评论"
-                theme="github-light"
-                crossorigin="anonymous"
-                async>
+    <script
+        <%= theme.global.single_page === true && 'data-swup-reload-script' %>
+        src="https://utteranc.es/client.js"
+        repo="Zarijaden/blog"
+        issue-term="pathname"
+        label="评论"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
     </script>
 <% } %>
