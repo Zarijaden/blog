@@ -179,7 +179,7 @@ home_banner:
       github: https://github.com/Zarijaden # your GitHub URL
       instagram: https://instagram.com/Zarijaden # your Instagram URL
       zhihu:  # your ZhiHu URL
-      /image/x-twitter-brands-solid.svg: https://x.com/Zarijaden_1726 # your twitter URL
+      /image/x-twitter-brands-solid.png: https://x.com/Zarijaden_1726 # your twitter URL
       fa-brands fa-bilibili: https://space.bilibili.com/3493135097269095
       email: Zarijaden@163.com # your email
       # ...... # you can add more
@@ -380,9 +380,9 @@ comment:
     # Giscus comment system. See https://giscus.app/
     giscus:
       repo: Zarijaden/blog# Github repository name e.g. EvanNotFound/hexo-theme-redefine
-      repo_id: "Zarijaden/blog"# Github repository id
-      category: "R_kgDORQUF1g"# Github discussion category
-      category_id: "Announcements"# Github discussion category id
+      repo_id: "R_kgDORQUF1g"# Github repository id
+      category: "Announcements"# Github discussion category
+      category_id: "DIC_kwDORQUF1s4C2eQr"# Github discussion category id
       mapping: pathname # Which value to use as the unique identifier for the page. e.g. pathname, url, title, og:title. DO NOT USE og:title WITH PJAX ENABLED since pjax will not update og:title when the page changes
       strict: 0 # Whether to enable strict mode. e.g. 0, 1
       reactions_enabled: 1 # Whether to enable reactions. e.g. 0, 1
