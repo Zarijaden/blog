@@ -25,7 +25,7 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: https://avatars.githubusercontent.com/u/227128491
+  favicon: /images/logo.jpg
   # Site logo
   logo:
   # Site avatar
