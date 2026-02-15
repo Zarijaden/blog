@@ -16,6 +16,10 @@
     }) %>
 <% } %>
 
+<% if (theme.comment.system == utteranc) { %>
+    <%- renderJS('layouts/utteranc.js') %>
+<% } %>
+
 <% if (theme.articles.code_block.copy) { %>
     <%- renderJS('tools/codeBlock.js', {
         module: true
