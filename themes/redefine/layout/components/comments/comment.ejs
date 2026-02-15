@@ -16,7 +16,10 @@
         
         <% } else if (theme.comment.system === 'giscus') { %>
             <%- partial('components/comments/giscus') %>
-        
+
+        <% } else if (theme.comment.system === 'utterance') { %>
+            <%- partial('components/comments/utterance') %>
+
         <% } %>
     <% } %>
 </div>

@@ -354,7 +354,7 @@ comment:
   # Whether to enable comment
   enable: true
   # Comment system
-  system: giscus # waline, gitalk, twikoo, giscus
+  system: giscus # waline, gitalk, twikoo, giscus, utterance
   # System configuration
   config:
     # Waline comment system. See https://waline.js.org/
@@ -390,6 +390,11 @@ comment:
       lang: zh-CN # Giscus language. e.g. en, zh-CN, zh-TW
       input_position: bottom # Place the comment box above/below the comments. e.g. top, bottom
       loading: lazy # Load the comments lazily
+    # Utterance comment system. See https://giscus.app/
+    utterance:
+      repo: Zarijaden/blog
+      issue-term: pathname
+      label: comments
 # COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
