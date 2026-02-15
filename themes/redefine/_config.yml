@@ -209,9 +209,9 @@ navbar:
     Home:
       path: /
       icon: fa-regular fa-house # can be empty
-    Archives:
-      path: /archives
-      icon: fa-regular fa-archive # can be empty
+    # Archives:
+    #   path: /archives
+    #   icon: fa-regular fa-archive # can be empty
     # Status:
     #   path: https://status.ohevan.com/
     #   icon: fa-regular fa-chart-bar
@@ -354,10 +354,13 @@ comment:
   # Whether to enable comment
   enable: false
   # Comment system
-  system: utteranc # waline, gitalk, twikoo, giscus, utteranc
+  system: twikoo # waline, gitalk, twikoo, giscus
   # System configuration
   config:
+<<<<<<< HEAD
     # Utteranc comment system. See https://utteranc.es/
+=======
+>>>>>>> parent of ae34d3d (comment)
     # Waline comment system. See https://waline.js.org/
     waline:
       serverUrl: https://example.example.com # Waline server URL. e.g. https://example.example.com
