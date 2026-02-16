@@ -2,7 +2,12 @@
   has_thumbnail: false
   list:
     - name: Zeropersan
-      link: zeropersan.github.io
+      link: https://zeropersan.github.io/
       description: MC玩家Zeropersan的博客
       avatar: /images/255639988.png
+      thumbnail:
+    - name: Steven_mc
+      link: https://steven.wuaze.com/
+      description: Steven_mc的论坛（匿名发帖）
+      avatar: /images/stvicon.jpg
       thumbnail:

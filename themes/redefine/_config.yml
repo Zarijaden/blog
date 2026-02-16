@@ -89,7 +89,7 @@ global:
   # Whether to enable Preloader.
   preloader:
     enable: true
-    custom_message: 不以物喜，不以己悲 # Custom message. If empty, the site title will be displayed
+    custom_message: Zarijaden Blog # Custom message. If empty, the site title will be displayed
   # Side tools settings
   side_tools:
     # Whether to enable gear rotation animation for settings button
@@ -354,7 +354,7 @@ comment:
   # Whether to enable comment
   enable: true
   # Comment system
-  system: giscus # waline, gitalk, twikoo, giscus, utterance
+  system: giscus # waline, gitalk, twikoo, giscus, utterances
   # System configuration
   config:
     # Waline comment system. See https://waline.js.org/
@@ -391,7 +391,7 @@ comment:
       input_position: bottom # Place the comment box above/below the comments. e.g. top, bottom
       loading: lazy # Load the comments lazily
     # Utterance comment system. See https://giscus.app/
-    utterance:
+    utterances:
       repo: Zarijaden/blog
       issue-term: pathname
       label: comments
