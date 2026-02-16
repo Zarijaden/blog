@@ -253,13 +253,13 @@ home:
     # Archives:
     #   path: /archives
     #   icon: fa-regular fa-archive # can be empty
-    # Tags:
-    #   path: /tags
-    #   icon: fa-regular fa-tags # can be empty
-    # Categories:
-    #   path: /categories
-    #   icon: fa-regular fa-folder # can be empty
-    # ...... # you can add more
+      Tags:
+        path: /tags
+        icon: fa-solid fa-tags # can be empty
+      Categories:
+        path: /categories
+        icon: fa-solid fa-folder # can be empty
+  # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
   # Article excerpt length
