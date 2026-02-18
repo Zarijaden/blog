@@ -82,3 +82,7 @@
       link: https://pin.gl/
       description: 屏幕共享
       image: https://pin.gl/favicon.ico
+    - name: Imgloc
+      link: https://imgloc.com/
+      description: 免费图床
+      image: https://imgloc.com/favicon.ico
