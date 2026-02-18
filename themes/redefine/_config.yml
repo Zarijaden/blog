@@ -256,9 +256,9 @@ home:
       Tags:
         path: /tags
         icon: fa-solid fa-tags # can be empty
-      Categories:
-        path: /categories
-        icon: fa-solid fa-folder # can be empty
+    #  Categories:
+    #    path: /categories
+    #    icon: fa-solid fa-folder # can be empty
       links:
         Bookmarks: #取名随意
         icon: fa-solid fa-bookmark #图标
