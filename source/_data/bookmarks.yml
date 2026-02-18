@@ -13,3 +13,22 @@
       link: https://www.myfreemp3.com.cn/
       description: 有时失效
       image: https://www.myfreemp3.com.cn/favicon.ico
+- category: AI
+  icon: fa-robot
+  items:
+    - name: 腾讯元宝
+      link: https://yuanbao.tencent.com/
+      description: 
+      image: https://yuanbao.tencent.com/favicon.ico
+    - name: Deepseek
+      link: https://chat.deepseek.com/
+      description: 
+      image: https://www.gequbao.com/favicon.ico
+    - name: Kimi
+      link: https://www.kimi.com/
+      description: 
+      image: https://www.kimi.com/favicon.ico
+    - name: 
+      link: https://www.tiangong.cn/
+      description: 
+      image: https://www.tiangong.cn/favicon.ico
