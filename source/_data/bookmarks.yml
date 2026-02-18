@@ -28,7 +28,30 @@
       link: https://www.kimi.com/
       description: 
       image: https://www.kimi.com/favicon.ico
-    - name: 
+    - name: 天工
       link: https://www.tiangong.cn/
       description: 
       image: https://www.tiangong.cn/favicon.ico
+- category: 节点站
+  icon: fa-location-dot
+  items:
+    - name: Freev2ray
+      link: https://freev2ray.cc/
+      description: 
+      image: https://freev2ray.cc/favicon.ico
+    - name: Shareclash
+      link: https://shareclash.com/
+      description: 
+      image: https://shareclash.com/favicon.ico
+    - name: V2raynews
+      link: https://v2raynews.com/
+      description: 
+      image: https://v2raynews.com/favicon.ico
+    - name: ClashSSR
+      link: https://clashshare.net/
+      description: 
+      image: https://clashshare.net/favicon.ico
+    - name: Free Proxy
+      link: https://github.com/crossxx-labs/free-proxy
+      description: 
+      image: https://github.com/favicon.ico
