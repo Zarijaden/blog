@@ -1,0 +1,15 @@
+- category: 免费音乐
+  icon: fa-music
+  items:
+    - name: 音乐房间
+      link: https://happy.alang.run/
+      description: 无法下载，暂停，拖进度条
+      image: https://happy.alang.run/favicon.ico
+    - name: 歌曲宝
+      link: https://www.gequbao.com/
+      description: 下载通道是网盘
+      image: https://www.gequbao.com/favicon.ico
+    - name: My Free mp3
+      link: https://www.myfreemp3.com.cn/
+      description: 有时失效
+      image: https://www.myfreemp3.com.cn/favicon.ico
