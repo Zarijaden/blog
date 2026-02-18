@@ -259,6 +259,10 @@ home:
       Categories:
         path: /categories
         icon: fa-solid fa-folder # can be empty
+      links:
+        Bookmarks: #取名随意
+        icon: fa-solid fa-bookmark #图标
+        path: /bookmarks/
   # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
