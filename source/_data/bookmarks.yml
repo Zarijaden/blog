@@ -21,7 +21,7 @@
       description: 
       image: https://yuanbao.tencent.com/favicon.ico
     - name: Deepseek
-      link: https://chat.deepseek.com/
+      link: https://cdn.deepseek.com/chat/icon.png
       description: 
       image: https://chat.deepseek.com/favicon.ico
     - name: Kimi
@@ -61,17 +61,17 @@
     - name: Wormhole
       link: https://wormhole.app/
       description: 传文件，酷炫动画
-      image: https://wormhole.app/favicon.ico
+      image: https://wormhole.app/favicon-32x32.png
     - name: 文叔叔
       link: https://www.wenshushu.cn/
       description: 传文件，快捷
       image: https://www.wenshushu.cn/favicon.ico
     - name: Snapdrop
-      link: https://www.snap-drop.net/
+      link: https://www.snap-drop.net/images/favicon-96x96.png
       description: 同局域网传文件
       image: https://www.snap-drop.net/favicon.ico
     - name: Free Compress
-      link: https://freecompress.com/
+      link: https://freecompress.com/favicon-16x16.png
       description: 文件压缩
       image: https://https://freecompress.com/favicon.ico
     - name: CDKM
@@ -85,7 +85,10 @@
     - name: Imgloc
       link: https://imgloc.com/
       description: 免费图床
-      image: https://imgloc.com/favicon.ico
+      image: https://imgloc.com/content/images/system/favicon_1737318962702_48e5be.png
     - name: McNav
       link: https://www.mcnav.net/
       image: https://www.mcnav.net/favicon.ico
+    - name: Cloudflare Dashboard
+      link: https://dash.cloudflare.com/
+      image: https://dash.cloudflare.com/favicon-32x32.png
