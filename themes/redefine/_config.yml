@@ -222,9 +222,9 @@ navbar:
     #     Github: https://github.com/EvanNotFound/hexo-theme-redefine
     #     Blog: https://ohevan.com
     #     Friends: /friends
-    Links:
-      path: /links/
-      icon: fa-regular fa-link
+    Bookmarks: #取名随意
+      icon: fa-solid fa-bookmark #图标
+      path: /bookmarks/
     #   submenus:
     #     Link1: /link1
     #     Link2: /link2
@@ -256,13 +256,12 @@ home:
       Tags:
         path: /tags
         icon: fa-solid fa-tags # can be empty
-    #  Categories:
-    #    path: /categories
-    #    icon: fa-solid fa-folder # can be empty
-      links:
-        Bookmarks: #取名随意
-        icon: fa-solid fa-bookmark #图标
-        path: /bookmarks/
+      Masonry:
+        path: /masonry
+        icon: fa-solid fa-image # can be empty
+      Links:
+        path: /links/
+        icon: fa-regular fa-link
   # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
