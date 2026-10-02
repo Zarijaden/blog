@@ -236,6 +236,7 @@ navbar:
       icon: fa-regular fa-circle-plus
       submenus:
         服务器: https://fid.cc.cd/
+        Diskdash: https://diskdash.pages.dev/
         诗洞话词典: https://dict.zarijaden.cc.cd/
         Bookmarks: /bookmarks/
         相册: /masonry/
